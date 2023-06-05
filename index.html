@@ -7,17 +7,32 @@
         <link rel="stylesheet" href="./index.css">
     </head>
 
-    <body>
+    <body id="body">
         <div class="container" id="c-heading">Odin-reciept</div>
         
         <div class="container" id="c-odin">
             <div id="c-odin-words">
-                <p>“God created food... </p> 
-                <p>but the devil created spices"</p>
+                <p id="speech1">“God created food... </p> 
+                <p id="speech2">but the devil created spices"</p>
             </div>
-            <img src="./images/Odin.jpg" alt="Odin" id="c-odin-img">
+            <img src="./images/Odin.jpg" alt="Odin" id="c-odin-img" onmouseover="chbg1('black')" onmouseout="chbg2('yellow')">
             
         </div>
+
+        <div class="container">
+            <ul id="foodlists">
+                <li><img src="./images/Odin.jpg" alt="Odin" id="c-odin-img" onmouseover="chbg1('black')" onmouseout="chbg2('yellow')"></li>
+                <li><img src="./images/Odin.jpg" alt="Odin" id="c-odin-img" onmouseover="chbg1('black')" onmouseout="chbg2('yellow')"></li>
+                <li><img src="./images/Odin.jpg" alt="Odin" id="c-odin-img" onmouseover="chbg1('black')" onmouseout="chbg2('yellow')"></li>
+            </ul>
+
+        </div>
+
+
+
+        <script src="script.js">
+        </script>
+        
 
 
         
